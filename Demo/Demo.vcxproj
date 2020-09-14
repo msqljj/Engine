@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{E38ADA58-083A-476E-A608-0CFF0FDDC1FC}</ProjectGuid>
+    <RootNamespace>Demo</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Vulkan\1.2.131.2\Include;C:\Users\morten.hagen\source\repos\Demo\Demo\Demo;C:\Users\morten.hagen\source\repos\Demo\Demo\Demo\FileManager\stb-master;C:\Users\Morten\source\repos\Demo\Demo\Demo\FileManager\stb-master;C:\Users\Morten\source\repos\Demo\Demo\Demo;D:\Vulkan\1.2.135.0\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Vulkan\1.2.131.2\Lib;D:\Vulkan\1.2.135.0\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Vulkan\1.2.131.2\Include;C:\Users\morten.hagen\source\repos\Demo\Demo\Demo;C:\Users\morten.hagen\source\repos\Demo\Demo\Demo\FileManager\stb-master;C:\Users\Morten\source\repos\Demo\Demo\Demo\FileManager\stb-master;C:\Users\Morten\source\repos\Demo\Demo\Demo;D:\Vulkan\1.2.135.0\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Vulkan\1.2.131.2\Lib;D:\Vulkan\1.2.135.0\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Vulkan\1.2.131.2\Include;C:\Users\morten.hagen\source\repos\Demo\Demo\Demo;C:\Users\morten.hagen\source\repos\Demo\Demo\Demo\FileManager\stb-master;C:\Users\Morten\source\repos\Demo\Demo\Demo\FileManager\stb-master;C:\Users\Morten\source\repos\Demo\Demo\Demo;D:\Vulkan\1.2.135.0\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Vulkan\1.2.131.2\Lib;D:\Vulkan\1.2.135.0\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Vulkan\1.2.131.2\Include;C:\Users\morten.hagen\source\repos\Demo\Demo\Demo;C:\Users\morten.hagen\source\repos\Demo\Demo\Demo\FileManager\stb-master;C:\Users\Morten\source\repos\Demo\Demo\Demo\FileManager\stb-master;C:\Users\Morten\source\repos\Demo\Demo\Demo;D:\Vulkan\1.2.135.0\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Vulkan\1.2.131.2\Lib;D:\Vulkan\1.2.135.0\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>vulkan-1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>vulkan-1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>vulkan-1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>vulkan-1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo\Demo.cpp" />
+    <ClCompile Include="Demo\AudioManager\AudioManager.cpp" />
+    <ClCompile Include="Demo\Engine\EngineManager.cpp" />
+    <ClCompile Include="Demo\InputManager\Keyboard\keyboard.cpp" />
+    <ClCompile Include="Demo\InputManager\Mouse\mouse.cpp" />
+    <ClCompile Include="Demo\VulkanManager\VulkanInstance\VulkanInstance.cpp" />
+    <ClCompile Include="Demo\WindowManager\WindowManager.cpp" />
+    <ClCompile Include="Demo\VulkanManager\VulkanManager.cpp" />
+    <ClCompile Include="Demo\SceneManager\SceneManager.cpp" />
+    <ClCompile Include="Demo\PhysicsManager\PhysicsManager.cpp" />
+    <ClCompile Include="Demo\InputManager\InputManager.cpp" />
+    <ClCompile Include="Demo\FileManager\FileManager.cpp" />
+    <ClCompile Include="Demo\VulkanManager\VulkanDevice\VulkanDevice.cpp" />
+    <ClCompile Include="Demo\VulkanManager\VulkanSwapchain\VulkanSwapchain.cpp" />
+    <ClCompile Include="Demo\VulkanManager\VulkanTexture\VulkanTexture.cpp" />
+    <ClCompile Include="Demo\VulkanManager\VulkanSync\VulkanSync.cpp" />
+    <ClCompile Include="Demo\VulkanManager\VulkanUIManager\VulkanUIManager.cpp" />
+    <ClCompile Include="Demo\VulkanManager\VulkanShader\VulkanShader.cpp" />
+    <ClCompile Include="Demo\VulkanManager\VulkanUIManager\VimGUI\Vimgui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demo\AudioManager\AudioManager.h" />
+    <ClInclude Include="Demo\Engine\EngineManager.h" />
+    <ClInclude Include="Demo\InputManager\Keyboard\keyboard.h" />
+    <ClInclude Include="Demo\InputManager\Mouse\mouse.h" />
+    <ClInclude Include="Demo\Math\math.hpp" />
+    <ClInclude Include="Demo\VulkanManager\VulkanInstance\VulkanInstance.h" />
+    <ClInclude Include="Demo\VulkanManager\VulkanTools\VulkanTools.hpp" />
+    <ClInclude Include="Demo\WindowManager\WindowManager.h" />
+    <ClInclude Include="Demo\VulkanManager\VulkanManager.h" />
+    <ClInclude Include="Demo\SceneManager\SceneManager.h" />
+    <ClInclude Include="Demo\PhysicsManager\PhysicsManager.h" />
+    <ClInclude Include="Demo\InputManager\InputManager.h" />
+    <ClInclude Include="Demo\FileManager\FileManager.h" />
+    <ClInclude Include="Demo\VulkanManager\VulkanDevice\VulkanDevice.h" />
+    <ClInclude Include="Demo\VulkanManager\VulkanSwapchain\VulkanSwapchain.h" />
+    <ClInclude Include="Demo\VulkanManager\VulkanTexture\VulkanTexture.h" />
+    <ClInclude Include="Demo\VulkanManager\VulkanSync\VulkanSync.h" />
+    <ClInclude Include="Demo\VulkanManager\VulkanUIManager\VulkanUIManager.h" />
+    <ClInclude Include="Demo\VulkanManager\VulkanShader\VulkanShader.h" />
+    <ClInclude Include="Demo\VulkanManager\VulkanUIManager\VimGUI\Vimgui.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Demo\datatypes.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
