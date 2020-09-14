@@ -1,0 +1,23 @@
+Turquoise	rgba(26.0, 188.0, 156.0, 255.0)
+Emerald 	rgba(46.0, 204.0, 113.0, 255.0)
+Peter River	rgba(52.0, 152.0, 219.0, 255.0)
+Amethyst	rgba(155.0, 89.0, 182.0, 255.0)
+Wet Asphalt	rgba(52.0, 73.0, 94.0, 255.0)
+
+Green Sea	rgba(22.0, 160.0, 133.0, 255.0)
+Nephritis	rgba(39.0, 174.0, 96.0, 255.0)
+Belize Hole	rgba(41.0, 128.0, 185.0, 255.0)
+Wisteria	rgba(142.0, 68.0, 173.0, 255.0)
+Midnight Blue	rgba(44.0, 62.0, 80.0, 255.0)
+
+Sun Flower	rgba(241.0, 196.0, 15.0, 255.0)
+Carrot		rgba(230.0, 126.0, 34.0, 255.0)
+Alizarin	rgba(231.0, 76.0, 60.0, 255.0)
+Clouds		rgba(236.0, 240.0, 241.0, 255.0)
+Concrete	rgba(149.0, 165.0, 166.0, 255.0)
+
+Orange		rgba(243.0, 156.0, 18.0, 255.0)
+Pumpkin		rgba(211.0, 84.0, 0.0 , 255.0)
+Pomegranate	rgba(192.0, 57.0, 43.0, 255.0)
+Silver		rgba(189.0, 195.0, 199.0, 255.0)
+Asbestos	rgba(127.0, 140.0, 141.0, 255.0)
